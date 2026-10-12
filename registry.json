@@ -4,8 +4,9 @@
     {
       "id": "cursor",
       "name": "Cursor",
-      "description": "Use your own Cursor subscription as an OpenAI-compatible provider in CLIProxyAPI, including Cursor IDE credential import.",
+      "description": "Use your own Cursor subscription as an OpenAI-compatible provider in CLIProxyAPI, with a management page to import Cursor IDE / token.json credentials.",
       "author": "rh01",
+      "version": "0.1.1",
       "repository": "https://github.com/rh01/cpa-plugin-cursor",
       "homepage": "https://github.com/rh01/cpa-plugin-cursor",
       "license": "MIT",
@@ -14,8 +15,9 @@
     {
       "id": "factory",
       "name": "Factory (Droid)",
-      "description": "Use your own Factory Droid subscription as an upstream provider in CLIProxyAPI for OpenAI chat/responses and Anthropic messages, with streaming and tool calls.",
+      "description": "Use your own Factory Droid subscription as an upstream provider in CLIProxyAPI for OpenAI chat/responses and Anthropic messages, with streaming, tool calls and a management page for account import and device login.",
       "author": "rh01",
+      "version": "0.1.1",
       "repository": "https://github.com/rh01/cpa-plugin-factory",
       "homepage": "https://github.com/rh01/cpa-plugin-factory",
       "license": "MIT",
