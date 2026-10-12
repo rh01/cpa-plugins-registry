@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "description": "Use your own Cursor subscription as an OpenAI-compatible provider in CLIProxyAPI, including Cursor IDE credential import.",
+      "author": "rh01",
+      "repository": "https://github.com/rh01/cpa-plugin-cursor",
+      "homepage": "https://github.com/rh01/cpa-plugin-cursor",
+      "license": "MIT",
+      "tags": ["provider", "cursor"]
+    },
+    {
+      "id": "factory",
+      "name": "Factory (Droid)",
+      "description": "Use your own Factory Droid subscription as an upstream provider in CLIProxyAPI for OpenAI chat/responses and Anthropic messages, with streaming and tool calls.",
+      "author": "rh01",
+      "repository": "https://github.com/rh01/cpa-plugin-factory",
+      "homepage": "https://github.com/rh01/cpa-plugin-factory",
+      "license": "MIT",
+      "tags": ["provider", "factory", "droid"]
+    },
+    {
+      "id": "cpa-prometheus",
+      "name": "CPA Prometheus",
+      "description": "Prometheus metrics for CLIProxyAPI usage, Management Center dashboard counts, and provider quota windows. Served only on the management-authenticated route GET /v0/management/plugins/cpa-prometheus/metrics.",
+      "author": "giovannirco, rh01",
+      "repository": "https://github.com/rh01/cpa-prometheus-plugin",
+      "homepage": "https://github.com/rh01/cpa-prometheus-plugin",
+      "license": "MIT",
+      "tags": ["metrics", "prometheus", "quota", "usage"]
+    }
+  ]
+}
